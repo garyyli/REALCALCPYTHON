@@ -2,6 +2,7 @@
 #6/7/18
 #Calculus Euler's Method
 
+from math import *
 print('If there is a sinx function input it as sin(x)')
 print('If there is a cosx function input it as cos(x)')
 print('If there is a tanx function input it as tan(x)')
