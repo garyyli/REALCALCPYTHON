@@ -23,8 +23,8 @@ print('Input x^ as x**')
 print('Use the * to show multiplication. Ex: 3x^2 is 3*x**2')
 
 derivative = input("Input f'(x): ")
-y = float(input("Input the y-value "))
-x = float(input("Input the x-value"))
+y = float(input("Input the y-value: "))
+x = float(input("Input the x-value: "))
 xapprox = float(input("Input the x-value you wish to approximate: "))
 steps = int(input("Input the number of steps between approximate value and the original x: "))
 dx= (xapprox-x)/steps
