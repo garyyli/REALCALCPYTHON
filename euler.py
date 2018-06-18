@@ -44,7 +44,5 @@ else:
             dy= dydx*dx
             x+=dx
             y+=dy
-    
-print(y)
-print(x)
+
 print('The approximated point is','(',x,',',y,')')
