@@ -47,4 +47,4 @@ else:
     
 print(y)
 print(x)
-    
+print('The approximated point is','(',x,',',y,')')
