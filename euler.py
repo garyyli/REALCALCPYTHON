@@ -28,7 +28,6 @@ x = float(input("Input the x-value: "))
 xapprox = float(input("Input the x-value you wish to approximate: "))
 steps = int(input("Input the number of steps between approximate value and the original x: "))
 dx= (xapprox-x)/steps
-dydx = float(eval(derivative))
 
 if xapprox>=x:
     while x <= xapprox:
